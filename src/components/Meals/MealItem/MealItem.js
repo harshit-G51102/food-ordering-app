@@ -13,7 +13,7 @@ const MealItem=props=>{
             price:props.price
         });
     }
-    const price=`$${props.price.toFixed(2)}`
+    const price=`₹${props.price.toFixed(2)}`
     return <li className={classes.meal}>
         <div>
         <h3>{props.name}</h3>
